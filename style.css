@@ -1,0 +1,108 @@
+body {
+  color:    rgb(121, 116, 122);
+  background-color:    rgb(210, 214, 182);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 7px
+  line-height: 1.8;
+}
+
+h1 {
+  color:    rgb(55, 5, 12);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px
+  line-height: 1.8;
+}
+
+h2 {
+  color:    rgb(55, 5, 12);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px
+  line-height: 1.8;
+}
+
+a {
+  color: rgb(167, 162, 209);
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: rgb(210, 214, 182);
+  color:  rgb(55, 5, 12);
+  text-decoration: none;
+}
+
+div {
+  border: 1px solid rgb(199, 199, 203);
+  background: white;                         /* White background */
+  padding: 30px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(98, 97, 97, 0.1);
+}
+
+.img-circle {
+  border-radius: 60%;
+  box-shadow: 5px 5px 3px rgb(115, 79, 79);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  width: 600px;   /* This sets the width */
+  margin: 50px auto; /* This automatically sets left/right margins */
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+
+  list-style: none;
+  padding-left: 0px;
+}
+
+
+.card {
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+}
+
+.button {
+  color: rgb(210, 214, 182);
+  background-color: rgb(145, 143, 143);
+  text-decoration: none;
+  border: 1px solid rgb(199, 199, 203);
+  padding: 8px;
+  border-radius: 8%;
+}
+
+a {
+  font-size: 20px;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
